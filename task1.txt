@@ -1,0 +1,10 @@
+numbers = [2, 4, 6, 8, 237, 10, 12, 14, 16]
+
+# Проходим по каждому элементу списка
+for number in numbers: # из number в numbers
+    # Проверяем, является ли число четным
+    if number % 2 == 0:
+        print(number)  
+    # Проверяем, равно ли число 237
+    if number == 237:
+        break  
