@@ -1,0 +1,9 @@
+num1 = float(input("Введите первое число: "))
+boundary = float(input("Введите пограничное число: "))
+
+if num1 < boundary:
+    print(f"{num1} меньше пограничного числа {boundary}")
+elif num1 > boundary:
+    print(f"{num1} больше пограничного числа {boundary}")
+    if num1 > boundary * 3:
+        print(f"{num1} больше пограничного более, чем в 3 раза")
